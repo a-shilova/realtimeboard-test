@@ -1,0 +1,14 @@
+<div class="container" >
+    <h3>Share <strong>Board name</strong> with other</h3>
+    <div class="like-input">
+        <email-block ng-repeat="email in emails" id="email-{{::$index}}"></email-block>
+        <input
+                type="text"
+                ng-model="inputEmail"
+                ng-keypress="($event.keyCode==13 || $event.keyCode==44) && onChangeInput()"
+                ng-blur="onChangeInput()"
+                ng-paste="onPaste($event)" class='email-input'
+                placeholder="add more people..."
+        />
+    </div>
+</div>

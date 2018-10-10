@@ -1,0 +1,130 @@
+/* app css stylesheet */
+
+emails-component > emails-editor > .container {
+  min-width: 500px;
+  min-height: 220px;
+  border: 1px solid #f5f5f5;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+  color: #6d6d6d;
+  max-width: 500px;
+}
+
+emails-component > emails-editor > .container > h3 {
+  font-size: 20px;
+  margin-left: 39px;
+  margin-top: 29px;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: 0.04ex;
+  word-spacing: -0.01ex;
+}
+
+emails-component > emails-editor > .container > .like-input {
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 34px;
+  position: relative;
+  resize: none;
+  background-color: white;
+  border-top-style: inset;
+  border-top-width: 1px;
+  border-top-color: #cccccc;
+  overflow:auto;
+  height: 100px;
+}
+
+.nonMarkerLi {
+  list-style-type: none;
+}
+
+.nonMarkerUl {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.email-button {
+  border-radius: 5px;
+  border: none;
+  margin-top: 29px;
+  margin-right: -25px;
+  margin-left: 41px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  height: 36px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  background-color: #6699ff;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.email-input {
+  resize: none;
+  border: none;
+  margin-top: 7px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+.invalid-email {
+  text-decoration: underline;
+  -moz-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+}
+
+.block-email {
+  display: inline-block;
+  background-color: #d4e4ff;
+  margin: 7px 3px 0 8px;
+  outline: none;
+  padding-left: 9px;
+  padding-right: 3px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 14px;
+  height: 24px;
+  vertical-align: top;
+}
+
+.text-email {
+  display: inline-block;
+  background: inherit;
+  font: inherit;
+  vertical-align: middle;
+  color: inherit;
+  border: none;
+  width: auto;
+}
+
+.close {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  margin-left: 7px;
+  margin-top: 4px;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  content: ' ';
+  height: 10px;
+  width: 2px;
+  background-color: #6d6d6d;;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
